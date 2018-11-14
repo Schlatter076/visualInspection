@@ -21,7 +21,7 @@ public class ImageViewTool {
     EventQueue.invokeLater(new Runnable() {
       public void run() {
         try {
-          ImageViewTool window = new ImageViewTool("L:\\JavaCode\\JavaHostComputer\\src\\", "run.jpg");
+          ImageViewTool window = new ImageViewTool("L:\\visualInspection\\resource\\", "mirror.jpg");
           window.frame.setVisible(true);
         } catch (Exception e) {
           e.printStackTrace();
